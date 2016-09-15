@@ -1,3 +1,66 @@
-body, html {
-  font-size: 12px;
+html {
+  font-size: 62.5%;
+}
+p {
+	color: blue;
+	font-size: 1.2rem;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+img {
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+input {
+	margin: 10px;
+}
+
+.left-floating-img {
+	float: left;
+}
+
+.right-floating-img {
+	float: right;
+}
+
+.footer-items {
+	display: inline-block;
+	width: 33%
+}
+
+#footer-copywrite {
+	display:inline-block;
+	width: 100%
+}
+
+footer p {
+	font-size:.5rem;
+	color: red;
+	text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li > a {
+  color: pink;
+  font-size: 1.5rem;
+  font-style: normal;
+  
+}
+nav a {
+	color: purple;
+	font-size: 1rem;
+	font-style: bold;
+}
+nav ul li img {
+	margin: 2px;
+	height: 25px;
+	width: 25px;
 }
